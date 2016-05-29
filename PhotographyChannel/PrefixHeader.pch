@@ -1,0 +1,70 @@
+//
+//  PrefixHeader.pch
+//  PhotographyChannel
+//
+//  Created by Neil Wang on 16/5/27.
+//  Copyright © 2016年 Neil Wang. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "AppDelegate.h"
+#import "AFNetWorking.h"
+//环信
+
+#endif
+
+/* 机体高宽 */
+#define WMDeviceWidth [UIScreen mainScreen].bounds.size.width
+#define WMDeviceHeight [UIScreen mainScreen].bounds.size.height
+
+// ************** 适配 *************
+#define default_height 667      // phone6
+#define default_width 375       // phone6
+
+#define SCALE ((WMDeviceWidth / default_width) > 1.0 ? (WMDeviceWidth / default_width) : 1.0) // 当前设备宽度与phone6宽度的比例因子
+
+#define RECT_ALL(X,Y,W,H) CGRectMake((CGFloat)X * SCALE, (CGFloat)Y * SCALE, (CGFloat)W * SCALE, (CGFloat)H * SCALE) // 缩放所有点位
+
+// X原点不缩放
+#define RECT_X(X,Y,W,H) CGRectMake((CGFloat)X, (CGFloat)Y * SCALE, (CGFloat)W * SCALE, (CGFloat)H * SCALE)
+
+// Y原点不缩放
+#define RECT_Y(X,Y,W,H) CGRectMake((CGFloat)X * SCALE, (CGFloat)Y, (CGFloat)W * SCALE, (CGFloat)H * SCALE)
+
+// X、Y原点不缩放
+#define RECT_XY(X,Y,W,H) CGRectMake((CGFloat)X, (CGFloat)Y, (CGFloat)W * SCALE, (CGFloat)H * SCALE)
+
+// 字体适配
+#define FONT_Adaptation(size) [UIFont systemFontOfSize:(CGFloat)size * SCALE] // UIFont
+#define FONT_SIZE(size) (CGFloat)size * SCALE // 字体大小
+// ********************************
+
+// 矩形操作
+#define MaxX(rect) CGRectGetMaxX((CGRect)rect)
+#define MinX(rect) CGRectGetMinX((CGRect)rect)
+#define MaxY(rect) CGRectGetMaxY((CGRect)rect)
+#define MaxW(rect) CGRectGetWidth((CGRect)rect)
+#define MaxH(rect) CGRectGetHeight((CGRect)rect)
+#define RECT_MAKE(X,Y,W,H) CGRectMake((CGFloat)X, (CGFloat)Y, (CGFloat)W, (CGFloat)H)
+
+// 提示信息
+#define ShowError(errorString) [SVProgressHUD showErrorWithStatus:errorString maskType:SVProgressHUDMaskTypeClear]
+#define ShowSuccess(successString) [SVProgressHUD showSuccessWithStatus:successString maskType:SVProgressHUDMaskTypeNone]
+#define ShowInfo(infoString) [SVProgressHUD showInfoWithStatus:infoString maskType:SVProgressHUDMaskTypeNone]
+#define ShowLoad(loadString) [SVProgressHUD showWithStatus:loadString]
+#define DISMISS [SVProgressHUD dismiss]
+
+
+
+
+
+#endif /* PrefixHeader_pch */

@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		042B910D1CF6982C005972B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B910C1CF6982C005972B7 /* main.m */; };
-		042B91101CF6982C005972B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B910F1CF6982C005972B7 /* AppDelegate.m */; };
-		042B91131CF6982C005972B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B91121CF6982C005972B7 /* ViewController.m */; };
 		042B91161CF6982C005972B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042B91141CF6982C005972B7 /* Main.storyboard */; };
 		042B91191CF6982C005972B7 /* PhotographyChannel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 042B91171CF6982C005972B7 /* PhotographyChannel.xcdatamodeld */; };
 		042B911B1CF6982C005972B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042B911A1CF6982C005972B7 /* Assets.xcassets */; };
 		042B911E1CF6982C005972B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042B911C1CF6982C005972B7 /* LaunchScreen.storyboard */; };
 		042B91291CF6982C005972B7 /* PhotographyChannelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B91281CF6982C005972B7 /* PhotographyChannelTests.m */; };
 		042B91341CF6982C005972B7 /* PhotographyChannelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B91331CF6982C005972B7 /* PhotographyChannelUITests.m */; };
+		042B91851CF8252C005972B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B91711CF8252C005972B7 /* AppDelegate.m */; };
+		042B91861CF8252C005972B7 /* LeftSlidViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B91731CF8252C005972B7 /* LeftSlidViewController.m */; };
+		042B91871CF8252C005972B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B91741CF8252C005972B7 /* main.m */; };
+		042B91881CF8252C005972B7 /* MyAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B91781CF8252C005972B7 /* MyAlbumViewController.m */; };
+		042B91891CF8252C005972B7 /* PersonalCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B917A1CF8252C005972B7 /* PersonalCenterViewController.m */; };
+		042B918A1CF8252C005972B7 /* PersonalCenterUIModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B917D1CF8252C005972B7 /* PersonalCenterUIModel.m */; };
+		042B918B1CF8252C005972B7 /* UserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B917F1CF8252C005972B7 /* UserInfoModel.m */; };
+		042B918C1CF8252C005972B7 /* PersonalCenterHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B91821CF8252C005972B7 /* PersonalCenterHeadView.m */; };
+		042B918D1CF8252C005972B7 /* PersonalCenterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B91841CF8252C005972B7 /* PersonalCenterTableViewCell.m */; };
+		042B91AB1CF83E4F005972B7 /* NSObject+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B91A21CF83E4F005972B7 /* NSObject+Extension.m */; };
+		042B91AC1CF83E4F005972B7 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B91A41CF83E4F005972B7 /* NSString+Extension.m */; };
+		042B91AD1CF83E4F005972B7 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B91A61CF83E4F005972B7 /* UIBarButtonItem+Extension.m */; };
+		042B91AE1CF83E4F005972B7 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B91A81CF83E4F005972B7 /* UIView+Extension.m */; };
+		042B91AF1CF83E4F005972B7 /* UPPayPluginProSDKNeedObj.mm in Sources */ = {isa = PBXBuildFile; fileRef = 042B91AA1CF83E4F005972B7 /* UPPayPluginProSDKNeedObj.mm */; };
+		042B91B21CF83F72005972B7 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B91B11CF83F72005972B7 /* SettingViewController.m */; };
+		042B91B81CF843A5005972B7 /* NetRequestInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B91B51CF843A5005972B7 /* NetRequestInterface.m */; };
+		042B91B91CF843A5005972B7 /* NetRequestParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B91B71CF843A5005972B7 /* NetRequestParameter.m */; };
+		042B91BB1CF848EA005972B7 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042B91BA1CF848EA005972B7 /* Login.storyboard */; };
+		042B91BF1CF8497D005972B7 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B91BE1CF8497D005972B7 /* LoginViewController.m */; };
+		7B20367205CC23CC19D036C8 /* libPods-PhotographyChannel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7CEECA883EBED49976B98A /* libPods-PhotographyChannel.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,10 +55,6 @@
 /* Begin PBXFileReference section */
 		042B91081CF6982C005972B7 /* PhotographyChannel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotographyChannel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		042B910C1CF6982C005972B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		042B910E1CF6982C005972B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		042B910F1CF6982C005972B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		042B91111CF6982C005972B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		042B91121CF6982C005972B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		042B91151CF6982C005972B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		042B91181CF6982C005972B7 /* PhotographyChannel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhotographyChannel.xcdatamodel; sourceTree = "<group>"; };
 		042B911A1CF6982C005972B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +66,47 @@
 		042B912F1CF6982C005972B7 /* PhotographyChannelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotographyChannelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		042B91331CF6982C005972B7 /* PhotographyChannelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotographyChannelUITests.m; sourceTree = "<group>"; };
 		042B91351CF6982C005972B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042B91641CF822D5005972B7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		042B91701CF8252C005972B7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		042B91711CF8252C005972B7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		042B91721CF8252C005972B7 /* LeftSlidViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSlidViewController.h; sourceTree = "<group>"; };
+		042B91731CF8252C005972B7 /* LeftSlidViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSlidViewController.m; sourceTree = "<group>"; };
+		042B91741CF8252C005972B7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		042B91771CF8252C005972B7 /* MyAlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAlbumViewController.h; sourceTree = "<group>"; };
+		042B91781CF8252C005972B7 /* MyAlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAlbumViewController.m; sourceTree = "<group>"; };
+		042B91791CF8252C005972B7 /* PersonalCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalCenterViewController.h; sourceTree = "<group>"; };
+		042B917A1CF8252C005972B7 /* PersonalCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterViewController.m; sourceTree = "<group>"; };
+		042B917C1CF8252C005972B7 /* PersonalCenterUIModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalCenterUIModel.h; sourceTree = "<group>"; };
+		042B917D1CF8252C005972B7 /* PersonalCenterUIModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterUIModel.m; sourceTree = "<group>"; };
+		042B917E1CF8252C005972B7 /* UserInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoModel.h; sourceTree = "<group>"; };
+		042B917F1CF8252C005972B7 /* UserInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoModel.m; sourceTree = "<group>"; };
+		042B91811CF8252C005972B7 /* PersonalCenterHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalCenterHeadView.h; sourceTree = "<group>"; };
+		042B91821CF8252C005972B7 /* PersonalCenterHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterHeadView.m; sourceTree = "<group>"; };
+		042B91831CF8252C005972B7 /* PersonalCenterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalCenterTableViewCell.h; sourceTree = "<group>"; };
+		042B91841CF8252C005972B7 /* PersonalCenterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterTableViewCell.m; sourceTree = "<group>"; };
+		042B91A11CF83E4F005972B7 /* NSObject+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extension.h"; sourceTree = "<group>"; };
+		042B91A21CF83E4F005972B7 /* NSObject+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extension.m"; sourceTree = "<group>"; };
+		042B91A31CF83E4F005972B7 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		042B91A41CF83E4F005972B7 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		042B91A51CF83E4F005972B7 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		042B91A61CF83E4F005972B7 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		042B91A71CF83E4F005972B7 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		042B91A81CF83E4F005972B7 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		042B91A91CF83E4F005972B7 /* UPPayPluginProSDKNeedObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPPayPluginProSDKNeedObj.h; sourceTree = "<group>"; };
+		042B91AA1CF83E4F005972B7 /* UPPayPluginProSDKNeedObj.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UPPayPluginProSDKNeedObj.mm; sourceTree = "<group>"; };
+		042B91B01CF83F72005972B7 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		042B91B11CF83F72005972B7 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		042B91B31CF843A5005972B7 /* NetInterfaceConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetInterfaceConfig.h; sourceTree = "<group>"; };
+		042B91B41CF843A5005972B7 /* NetRequestInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetRequestInterface.h; sourceTree = "<group>"; };
+		042B91B51CF843A5005972B7 /* NetRequestInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetRequestInterface.m; sourceTree = "<group>"; };
+		042B91B61CF843A5005972B7 /* NetRequestParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetRequestParameter.h; sourceTree = "<group>"; };
+		042B91B71CF843A5005972B7 /* NetRequestParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetRequestParameter.m; sourceTree = "<group>"; };
+		042B91BA1CF848EA005972B7 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		042B91BD1CF8497D005972B7 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		042B91BE1CF8497D005972B7 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		2DAB1C546C15C43A73A90DD3 /* Pods-PhotographyChannel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotographyChannel.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotographyChannel/Pods-PhotographyChannel.release.xcconfig"; sourceTree = "<group>"; };
+		6A7CEECA883EBED49976B98A /* libPods-PhotographyChannel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PhotographyChannel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1DE96D54621D4FE0DAF5940 /* Pods-PhotographyChannel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotographyChannel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotographyChannel/Pods-PhotographyChannel.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B20367205CC23CC19D036C8 /* libPods-PhotographyChannel.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +142,8 @@
 				042B91271CF6982C005972B7 /* PhotographyChannelTests */,
 				042B91321CF6982C005972B7 /* PhotographyChannelUITests */,
 				042B91091CF6982C005972B7 /* Products */,
+				7CB43BB353423691DF00805C /* Pods */,
+				CF449121631BF563E644D1C3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,14 +160,16 @@
 		042B910A1CF6982C005972B7 /* PhotographyChannel */ = {
 			isa = PBXGroup;
 			children = (
-				042B910E1CF6982C005972B7 /* AppDelegate.h */,
-				042B910F1CF6982C005972B7 /* AppDelegate.m */,
-				042B91111CF6982C005972B7 /* ViewController.h */,
-				042B91121CF6982C005972B7 /* ViewController.m */,
+				042B918E1CF83DE2005972B7 /* Net */,
+				042B918F1CF83DE2005972B7 /* Other */,
+				042B91901CF83DE2005972B7 /* Tool */,
+				042B916E1CF8252C005972B7 /* Classes */,
 				042B91141CF6982C005972B7 /* Main.storyboard */,
+				042B91BA1CF848EA005972B7 /* Login.storyboard */,
 				042B911A1CF6982C005972B7 /* Assets.xcassets */,
 				042B911C1CF6982C005972B7 /* LaunchScreen.storyboard */,
 				042B911F1CF6982C005972B7 /* Info.plist */,
+				042B91641CF822D5005972B7 /* PrefixHeader.pch */,
 				042B91171CF6982C005972B7 /* PhotographyChannel.xcdatamodeld */,
 				042B910B1CF6982C005972B7 /* Supporting Files */,
 			);
@@ -143,6 +202,143 @@
 			path = PhotographyChannelUITests;
 			sourceTree = "<group>";
 		};
+		042B916E1CF8252C005972B7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				042B91BC1CF84969005972B7 /* Login */,
+				042B916F1CF8252C005972B7 /* Main */,
+				042B91751CF8252C005972B7 /* PersonalCenter */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		042B916F1CF8252C005972B7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				042B91701CF8252C005972B7 /* AppDelegate.h */,
+				042B91711CF8252C005972B7 /* AppDelegate.m */,
+				042B91721CF8252C005972B7 /* LeftSlidViewController.h */,
+				042B91731CF8252C005972B7 /* LeftSlidViewController.m */,
+				042B91741CF8252C005972B7 /* main.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		042B91751CF8252C005972B7 /* PersonalCenter */ = {
+			isa = PBXGroup;
+			children = (
+				042B91761CF8252C005972B7 /* Controller */,
+				042B917B1CF8252C005972B7 /* Model */,
+				042B91801CF8252C005972B7 /* View */,
+			);
+			path = PersonalCenter;
+			sourceTree = "<group>";
+		};
+		042B91761CF8252C005972B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				042B91771CF8252C005972B7 /* MyAlbumViewController.h */,
+				042B91781CF8252C005972B7 /* MyAlbumViewController.m */,
+				042B91791CF8252C005972B7 /* PersonalCenterViewController.h */,
+				042B917A1CF8252C005972B7 /* PersonalCenterViewController.m */,
+				042B91B01CF83F72005972B7 /* SettingViewController.h */,
+				042B91B11CF83F72005972B7 /* SettingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		042B917B1CF8252C005972B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				042B917C1CF8252C005972B7 /* PersonalCenterUIModel.h */,
+				042B917D1CF8252C005972B7 /* PersonalCenterUIModel.m */,
+				042B917E1CF8252C005972B7 /* UserInfoModel.h */,
+				042B917F1CF8252C005972B7 /* UserInfoModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		042B91801CF8252C005972B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				042B91811CF8252C005972B7 /* PersonalCenterHeadView.h */,
+				042B91821CF8252C005972B7 /* PersonalCenterHeadView.m */,
+				042B91831CF8252C005972B7 /* PersonalCenterTableViewCell.h */,
+				042B91841CF8252C005972B7 /* PersonalCenterTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		042B918E1CF83DE2005972B7 /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				042B91B31CF843A5005972B7 /* NetInterfaceConfig.h */,
+				042B91B41CF843A5005972B7 /* NetRequestInterface.h */,
+				042B91B51CF843A5005972B7 /* NetRequestInterface.m */,
+				042B91B61CF843A5005972B7 /* NetRequestParameter.h */,
+				042B91B71CF843A5005972B7 /* NetRequestParameter.m */,
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
+		042B918F1CF83DE2005972B7 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		042B91901CF83DE2005972B7 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				042B91A01CF83E4F005972B7 /* Extension */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		042B91A01CF83E4F005972B7 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				042B91A11CF83E4F005972B7 /* NSObject+Extension.h */,
+				042B91A21CF83E4F005972B7 /* NSObject+Extension.m */,
+				042B91A31CF83E4F005972B7 /* NSString+Extension.h */,
+				042B91A41CF83E4F005972B7 /* NSString+Extension.m */,
+				042B91A51CF83E4F005972B7 /* UIBarButtonItem+Extension.h */,
+				042B91A61CF83E4F005972B7 /* UIBarButtonItem+Extension.m */,
+				042B91A71CF83E4F005972B7 /* UIView+Extension.h */,
+				042B91A81CF83E4F005972B7 /* UIView+Extension.m */,
+				042B91A91CF83E4F005972B7 /* UPPayPluginProSDKNeedObj.h */,
+				042B91AA1CF83E4F005972B7 /* UPPayPluginProSDKNeedObj.mm */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		042B91BC1CF84969005972B7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				042B91BD1CF8497D005972B7 /* LoginViewController.h */,
+				042B91BE1CF8497D005972B7 /* LoginViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		7CB43BB353423691DF00805C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1DE96D54621D4FE0DAF5940 /* Pods-PhotographyChannel.debug.xcconfig */,
+				2DAB1C546C15C43A73A90DD3 /* Pods-PhotographyChannel.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF449121631BF563E644D1C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A7CEECA883EBED49976B98A /* libPods-PhotographyChannel.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +346,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 042B91381CF6982C005972B7 /* Build configuration list for PBXNativeTarget "PhotographyChannel" */;
 			buildPhases = (
+				199B9C4D80A82497CA4DD61A /* 📦 Check Pods Manifest.lock */,
 				042B91041CF6982C005972B7 /* Sources */,
 				042B91051CF6982C005972B7 /* Frameworks */,
 				042B91061CF6982C005972B7 /* Resources */,
+				5496C8CDBC0662783CD5B523 /* 📦 Embed Pods Frameworks */,
+				EF677A10AB7DA4F34BC644BF /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,6 +445,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042B91BB1CF848EA005972B7 /* Login.storyboard in Resources */,
 				042B911E1CF6982C005972B7 /* LaunchScreen.storyboard in Resources */,
 				042B911B1CF6982C005972B7 /* Assets.xcassets in Resources */,
 				042B91161CF6982C005972B7 /* Main.storyboard in Resources */,
@@ -268,15 +468,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		199B9C4D80A82497CA4DD61A /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5496C8CDBC0662783CD5B523 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotographyChannel/Pods-PhotographyChannel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF677A10AB7DA4F34BC644BF /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotographyChannel/Pods-PhotographyChannel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		042B91041CF6982C005972B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				042B91131CF6982C005972B7 /* ViewController.m in Sources */,
+				042B91881CF8252C005972B7 /* MyAlbumViewController.m in Sources */,
+				042B91861CF8252C005972B7 /* LeftSlidViewController.m in Sources */,
+				042B91891CF8252C005972B7 /* PersonalCenterViewController.m in Sources */,
 				042B91191CF6982C005972B7 /* PhotographyChannel.xcdatamodeld in Sources */,
-				042B91101CF6982C005972B7 /* AppDelegate.m in Sources */,
-				042B910D1CF6982C005972B7 /* main.m in Sources */,
+				042B918C1CF8252C005972B7 /* PersonalCenterHeadView.m in Sources */,
+				042B918D1CF8252C005972B7 /* PersonalCenterTableViewCell.m in Sources */,
+				042B918B1CF8252C005972B7 /* UserInfoModel.m in Sources */,
+				042B91B91CF843A5005972B7 /* NetRequestParameter.m in Sources */,
+				042B91AC1CF83E4F005972B7 /* NSString+Extension.m in Sources */,
+				042B91AB1CF83E4F005972B7 /* NSObject+Extension.m in Sources */,
+				042B918A1CF8252C005972B7 /* PersonalCenterUIModel.m in Sources */,
+				042B91B81CF843A5005972B7 /* NetRequestInterface.m in Sources */,
+				042B91AE1CF83E4F005972B7 /* UIView+Extension.m in Sources */,
+				042B91AD1CF83E4F005972B7 /* UIBarButtonItem+Extension.m in Sources */,
+				042B91871CF8252C005972B7 /* main.m in Sources */,
+				042B91BF1CF8497D005972B7 /* LoginViewController.m in Sources */,
+				042B91851CF8252C005972B7 /* AppDelegate.m in Sources */,
+				042B91AF1CF83E4F005972B7 /* UPPayPluginProSDKNeedObj.mm in Sources */,
+				042B91B21CF83F72005972B7 /* SettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,8 +676,11 @@
 		};
 		042B91391CF6982C005972B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1DE96D54621D4FE0DAF5940 /* Pods-PhotographyChannel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PhotographyChannel/PrefixHeader.pch";
 				INFOPLIST_FILE = PhotographyChannel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.changhong.user2.PhotographyChannel;
@@ -424,8 +690,11 @@
 		};
 		042B913A1CF6982C005972B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DAB1C546C15C43A73A90DD3 /* Pods-PhotographyChannel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PhotographyChannel/PrefixHeader.pch";
 				INFOPLIST_FILE = PhotographyChannel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.changhong.user2.PhotographyChannel;
@@ -500,6 +769,7 @@
 				042B913A1CF6982C005972B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		042B913B1CF6982C005972B7 /* Build configuration list for PBXNativeTarget "PhotographyChannelTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +778,7 @@
 				042B913D1CF6982C005972B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		042B913E1CF6982C005972B7 /* Build configuration list for PBXNativeTarget "PhotographyChannelUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +787,7 @@
 				042B91401CF6982C005972B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
